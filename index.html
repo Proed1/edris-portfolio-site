@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saifullah Portfolio</title>
+
+  <!-- Libraries -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<!-- AOS CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+
+  <!-- ===== Navbar ===== -->
+  <header class="navbar navbar-expand-lg fixed-top">
+    <div class="container justify-content-between">
+
+     <img src="#" alt="" class="">
+  
+      <ul class="navbar-nav d-none d-lg-flex mx-auto text-uppercase">
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#services">Services</a></li>
+        <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+
+      <div class=" d-flex gap-2">
+        <button id="themeToggle" class="icon-btn">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button id="mobileBtn" class="icon-btn d-lg-none">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Menu -->
+    <nav id="mobileMenu" class="mobile-menu text-uppercase">
+      <button class="close-btn">&times;</button>
+       <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#services">Services</a></li>
+        <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+    </nav>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section id="home" class="hero-section">
+    <span class="shape shape-1"></span>
+    <span class="shape shape-2"></span>
+    <span class="shape shape-3"></span>
+
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- Hero Left -->
+        <div class="col-lg-6 hero-left text-center text-lg-start">
+          <p class="greeting">Hello </p>
+          <h1 class="name" data-aos="fade-down">I Am Edris</h1>
+
+        <div class="role">
+            <h2>
+              <div class="animated-role">
+                <span class="word">Graphic Designer</span>
+                <span class="word">Motion Designer</span>
+              </div>
+            </h2>
+        </div>
+
+          <p class="hero-desc">
+            Creative graphic designer with a strong focus on visual identity and branding.
+            Passionate about turning ideas into clear, impactful designs.
+          </p>
+
+          <a href="#contact" class="btn btn-primary hero-btn">
+            Get In Touch
+          </a>
+        </div>
+
+        <!-- Hero Right -->
+       <div class="col-lg-6 text-center hero-right"  data-aos="fade-left">
+          <img src="assets/images/Light Mood.png" class="img-fluid main-hero img-light" alt="Hero">
+          <img src="assets/images/Dark Mood.jpg" class="img-fluid main-hero img-dark" alt="Hero">
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+
+<!-- ===== About Section ===== -->
+<section id="about" class="about-modern" data-aos="fade-up" >
+  <!-- Noise Overlay -->
+  <div class="about-noise"></div>
+
+  <!-- Side Award -->
+  <div class="award-side">
+    <div class="award-badge">
+      <i class="fas fa-award"></i>
+      <span>
+        Student Of The Year<br>
+        <small>Behzad Educational Center 2025</small>
+      </span>
+    </div>
+  </div>
+
+  <!-- Decorative Shapes -->
+  <span class="about-shape shape-1"></span>
+  <span class="about-shape shape-2"></span>
+
+  <!-- Content Container -->
+  <div class="container">
+    <!-- Watermark -->
+    <span class="about-watermark">About Me</span>
+
+    <div class="row">
+      <div class="col-lg-7 about-content">
+        <!-- Heading with Typewriter Effect -->
+        <h2 class="about-heading reveal-heading" id="aboutType">
+          <span data-word="Hello! I’m "></span>
+          <strong class="accent highlight" data-word="Edris"></strong>
+          <span data-word=", a self-taught & creative "></span>
+          <span class="accent highlight" data-word="Graphic Designer"></span>
+          <span data-word=" focused on visual identity and modern design."></span>
+        </h2>
+
+        <!-- About Text -->
+        <p class="about-text">
+          I help brands communicate clearly through clean,<br>
+          impactful visuals and thoughtful layouts.
+        </p>
+
+        <!-- Stats -->
+        <div class="about-stats">
+          <div class="stat">
+            <h3>200+</h3>
+            <p>Projects</p>
+          </div>
+          <div class="stat">
+            <h3>4+</h3>
+            <p>Years</p>
+          </div>
+          <div class="stat">
+            <h3>40+</h3>
+            <p>Clients</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="hero-btn btn-cv"> <a href="#">download Cv</a></button>
+  </div>
+</section>
+
+<!-- ===== Services ===== -->
+<section id="services" class="services-modern" data-aos="fade-up" data-aos-delay="400">
+  <div class="container">
+    <div class="row align-items-start g-5">
+
+      <!-- Left Column -->
+      <div class="col-12 col-lg-5 services-intro">
+        <h2 class="services-title">What I build</h2>
+        <p class="services-desc">
+          I combine visual design, creativity, and interaction to create impactful digital experiences
+        </p>
+
+        <!-- Capsules -->
+        <div class="services-capsules">
+          <span class="capsule green">Interface Design</span>
+          <span class="capsule blue">Prototyping</span>
+          <span class="capsule yellow dark">Design solutions</span>
+          <span class="capsule blue">UI/UX Design</span>
+          <span class="capsule yellow dark">Consulting</span>
+
+          <span class="capsule green">Brand strategy</span>
+          <span class="capsule green">Video-Editing</span>
+          <span class="capsule blue">Design audit</span>
+
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="col-12 col-lg-7">
+        <div class="services-list  ">
+          
+          <!-- Service Item 01 --> 
+          <div class="service-item active " data-aos="zoom-in" data-aos-delay="">
+            <span class="service-num">01</span>
+            <div class="service-body">
+              <h3>UI/UX Design</h3>
+              <p>Interface design focused on clarity, usability and visual harmony.</p>
+              <ul>
+                <li>Interface design</li>
+                <li>Design systems</li>
+                <li>UI kits</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Service Item 02 -->
+          <div class="service-item" data-aos="zoom-in" >
+            <span class="service-num">02</span>
+            <div class="service-body">
+              <h3>Design Systems</h3>
+              <p>Scalable systems for consistent products.</p>
+            </div>
+          </div>
+
+          <!-- Service Item 03 -->
+          <div class="service-item" data-aos="zoom-in">
+            <span class="service-num">03</span>
+            <div class="service-body">
+              <h3>Website Design</h3>
+              <p>Modern websites design</p>
+            </div>
+          </div>
+
+          <!-- Service Item 04 -->
+          <div class="service-item" data-aos="zoom-in">
+            <span class="service-num">04</span>
+            <div class="service-body">
+              <h3>Branding</h3>
+              <p>Strong visual identity for brands.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== Portfolio ===== -->
+<section id="portfolio" class="showcase-section " data-aos="fade-up" data-aos-delay="200">
+  <div class="container">
+
+    <header class="showcase-header">
+      <h2>Portfolio Overview</h2>
+      <p>A quick look at my work, achievements and experience.</p>
+    </header>
+
+    <div class="showcase-grid">
+
+      <!-- Card 1 -->
+       <div class="showcase-card" data-aos="zoom-in">
+        <div class="showcase-img">
+          <img src="assets/images/projects.jpg" alt="Projects">
+        </div>
+        <div class="showcase-content">
+          <h3>Projects</h3>
+          <p>Selected design and development projects showcasing my skills.</p>
+          <a href="components/projects.html" class="showcase-btn" target="_blank">Explore Projects →</a>
+        </div>
+      </div>
+     
+
+      <!-- Card 2 -->
+      <div class="showcase-card" data-aos="zoom-in">
+        <div class="showcase-img">
+          <img src="assets/images/employments.jpg" alt="Employment">
+        </div>
+        <div class="showcase-content">
+          <h3>Employment</h3>
+          <p>Work experience, roles and professional journey overview.</p>
+          <a href="components/employment.html" class="showcase-btn" target="_blank">View All Experience →</a>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+       <div class="showcase-card" data-aos="zoom-in">
+        <div class="showcase-img">
+          <img src="assets/images/certificates.jpg" alt="Certificates">
+        </div>
+        <div class="showcase-content">
+          <h3>Certificates</h3>
+          <p>Professional certifications and achievements earned over time.</p>
+          <a href="components/certificates.html" class="showcase-btn" target="_blank">View Certificates →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section" data-aos="fade-up" data-aos-delay="100">
+  <div class="skills-wrap">
+       <h1>Skills & tools</h1>
+        <p>Tools, technologies, and skills I use to build high-quality digital experiences</p>
+    
+
+    <!-- Toggle -->
+    <div class="skills-toggle">
+      <button class="toggle-btn active" data-target="design">Design</button>
+      <button class="toggle-btn" data-target="video">Video Editing</button>
+    </div>
+
+    <!-- Design Skills -->
+    <div class="skills-grid active">
+      
+      <div class="skill">
+        <svg class="progress-ring" viewBox="0 0 120 120">
+          <circle class="bg-ring" cx="60" cy="60" r="52"></circle>
+          <circle class="progress-ring__circle" cx="60" cy="60" r="52"></circle>
+        </svg>
+        <img src="assets/images/logos/figma.png">
+        <div class="percent">94%</div>
+        <div class="name">Figma</div>
+      </div>
+
+      <div class="skill">
+        <svg class="progress-ring" viewBox="0 0 120 120">
+          <circle class="bg-ring" cx="60" cy="60" r="52"></circle>
+          <circle class="progress-ring__circle" cx="60" cy="60" r="52"></circle>
+        </svg>
+          <img src="assets/images/logos/sketch.png">
+         <div class="percent">82%</div>
+         <div class="name">Sketch</div>
+      </div>
+
+      <div class="skill">
+        <svg class="progress-ring" viewBox="0 0 120 120">
+          <circle class="bg-ring" cx="60" cy="60" r="52"></circle>
+          <circle class="progress-ring__circle" cx="60" cy="60" r="52"></circle>
+        </svg>
+        <img src="assets/images/logos/photoshop.png" alt="">
+         <div class="percent">98%</div>
+         <div class="name">Photoshop</div>
+      </div>
+
+      <div class="skill">
+        <svg class="progress-ring" viewBox="0 0 120 120">
+          <circle class="bg-ring" cx="60" cy="60" r="52"></circle>
+          <circle class="progress-ring__circle" cx="60" cy="60" r="52"></circle>
+        </svg>
+          <img src="assets/images/logos/xd.png">
+          <div class="percent">84%</div>
+          <div class="name">Adobe XD</div>
+      </div>
+
+      <div class="skill">
+        <svg class="progress-ring" viewBox="0 0 120 120">
+          <circle class="bg-ring" cx="60" cy="60" r="52"></circle>
+          <circle class="progress-ring__circle" cx="60" cy="60" r="52"></circle>
+        </svg>
+         <img src="assets/images/logos/illustrator.png">
+          <div class="percent">84%</div>
+          <div class="name">Illustrator</div>
+      </div>
+
+       <div class="skill">
+        <svg class="progress-ring" viewBox="0 0 120 120">
+          <circle class="bg-ring" cx="60" cy="60" r="52"></circle>
+          <circle class="progress-ring__circle" cx="60" cy="60" r="52"></circle>
+        </svg>
+           <img src="assets/images/logos/indesign.png">
+            <div class="percent">78%</div>
+            <div class="name">InDesign</div>
+      </div>
+
+
+     
+    </div>
+
+    <!-- Video Skills -->
+  <div class="skills-grid">
+      <div class="skill">
+        <svg class="progress-ring" viewBox="0 0 120 120">
+          <circle class="bg-ring" cx="60" cy="60" r="52"></circle>
+          <circle class="progress-ring__circle" cx="60" cy="60" r="52"></circle>
+        </svg>
+          <img src="assets/images/logos/premiere-pro.png">
+          <div class="percent">90%</div>
+          <div class="name">Premiere Pro</div>
+      </div>
+
+      <div class="skill">
+        <svg class="progress-ring" viewBox="0 0 120 120">
+          <circle class="bg-ring" cx="60" cy="60" r="52"></circle>
+          <circle class="progress-ring__circle" cx="60" cy="60" r="52"></circle>
+        </svg>
+         <img src="assets/images/logos/after-effects.png">
+          <div class="percent">85%</div>
+          <div class="name">After Effects</div>
+      </div>
+
+  <div class="skill">
+        <svg class="progress-ring" viewBox="0 0 120 120">
+          <circle class="bg-ring" cx="60" cy="60" r="52"></circle>
+          <circle class="progress-ring__circle" cx="60" cy="60" r="52"></circle>
+        </svg>
+        <img src="assets/images/logos/icons8-alight-motion-48.png" alt="">
+          <div class="percent">70%</div>
+        <div class="name">Motion Graphics</div>
+      </div>
+
+        <div class="skill">
+        <svg class="progress-ring" viewBox="0 0 120 120">
+          <circle class="bg-ring" cx="60" cy="60" r="52"></circle>
+          <circle class="progress-ring__circle" cx="60" cy="60" r="52"></circle>
+        </svg>
+         <img src="assets/images/logos/adobe-audition.png">
+        <div class="percent">72%</div>
+        <div class="name">Adobe Audition</div>
+      </div>
+      
+      <div class="skill">
+        <svg class="progress-ring" viewBox="0 0 120 120">
+          <circle class="bg-ring" cx="60" cy="60" r="52"></circle>
+          <circle class="progress-ring__circle" cx="60" cy="60" r="52"></circle>
+        </svg>
+        <img src="assets/images/logos/final-cut.png">
+        <div class="percent">80%</div>
+        <div class="name">Final Cut Pro</div>
+      </div>
+
+      <div class="skill">
+        <svg class="progress-ring" viewBox="0 0 120 120">
+          <circle class="bg-ring" cx="60" cy="60" r="52"></circle>
+          <circle class="progress-ring__circle" cx="60" cy="60" r="52"></circle>
+        </svg>
+         <img  src="assets/images/logos/icons8-davinci-resolve-48.png">
+          <div class="percent">75%</div>
+          <div class="name">DaVinci Resolve</div>
+      </div>
+
+    
+  </div>
+
+
+</section>
+
+
+<!-- contact -->
+<section id="contact" class="cta-section" data-aos="fade-down">
+  <div class="cta-wrap">
+
+    <h2>
+      Let's talk about<br>
+      the next big thing
+    </h2>
+
+    <div class="cta-buttons">
+      <a href="https://wa.me/93789717549" class=" hero-btn">Write A Message</a>
+      <a href="https://wa.me/93789717549" class="btn secondary">Discuss Project</a>
+    </div>
+
+<div class="cta-socials">
+  <!-- WhatsApp -->
+  <a class="social" href="https://wa.me/93789717549" target="_blank" aria-label="WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <div class="text">
+      <span>WhatsApp</span>
+      <small>+93 731805985</small>
+    </div>
+  </a>
+
+  <div class="dot"></div>
+
+  <!-- Email -->
+  <a class="social" href="mailto:saifbabak007@gmail.com" target="_blank" aria-label="Email">
+    <i class="fa-regular fa-envelope"></i>
+    <div class="text">
+      <span>Email</span>
+      <small>ediskhan591@gmail.com</small>
+    </div>
+  </a>
+
+  <div class="dot"></div>
+
+
+
+  <div class="dot"></div>
+
+  <!-- LinkedIn -->
+  <a class="social" href="#" target="_blank" aria-label="LinkedIn">
+    <i class="fa-brands fa-linkedin-in"></i>
+    <div class="text">
+      <span>LinkedIn</span>
+      <small>Edris Babakarkhil</small>
+    </div>
+  </a>
+</div>
+
+<!-- Footer -->
+<div class="cta-footer">
+  &copy; 2026 Edris Babakarkhil. All rights reserved.
+</div>
+
+  </div>
+</section>
+
+
+  <!-- Scripts -->
+   <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
